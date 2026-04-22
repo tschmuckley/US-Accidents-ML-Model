@@ -27,7 +27,7 @@ project
 - `census` — access to U.S. Census API data
 - `us` — helper library for working with U.S. geographic/state information
 - `pgeocode` — ZIP code lookup for latitude and longitude
-- `google Colab` — best environment for running notebook
+- `Google Colab` — best environment available for running notebook
 
 ## Steps to run notebook
 1. Download US_Accidents_ML_Model.ipynb.
@@ -36,14 +36,15 @@ since lesser chips take 4-40+ hours to run.
 3. Setup google drive to store Random Forest model this is important since not doing so will cause
 the user to run out of RAM and Colab will crash.
 4. Click run all cells and wait.
+**NOTE:** To ensure proper run, confirming creation of the model in the middle of the notebook. This is identified in comments within the notebook itself as well as by large commented out section of code. We created a local model and saved it to our drive ~7.9Gb. We will be using an NN model next time.
 
 ## Important Consideration About our Model
 - The second section of the notebook uses synthetic data thus any output that the user gets from this
 model should 
 
-**NOTE:** The Jupyter notebook may take up to 45 minutes using Colab's High RAM environment due to certain model parameters. For ease of grading, we have added a PDF copy of the program to the main folder with our last run completed before this submission. We hope this helps.
+**NOTE:** The Jupyter notebook may take up to 45 minutes in certain cells even using Colab's High RAM environment due to certain model parameters. For ease of grading, we have added a PDF copy of the program to the main folder with our last run completed before this submission. We hope this helps.
 
-90% of the grading criteria will be copied from the notebook to this Readme file to fulfill the grading requirements put forward in Prof. Velasquez' announcement on 4/7.
+90% of the grading criteria will be copied from the notebook to our report file to fulfill the grading requirements put forward in Prof. Velasquez' announcement on April 7th.
 
-This project was originally built using IntelliJ's Idea in a Jupyter notebook. After waiting for 40 hours for a run to finish, Trevor learned about Google Colab and we shifted gears to using it exclusively to run the project.
+This project was originally built using IntelliJ's Idea in a Jupyter notebook. After waiting for 40 hours for a run to finish, we shifted gears to using Google Colab exclusively to run the project.
 
